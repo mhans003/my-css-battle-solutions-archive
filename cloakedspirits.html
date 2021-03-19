@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Battle</title>
+</head>
+<body>
+    <!--This solution is fixed, and therefore always renders the same-->
+    <div id="d">
+        <div class="q u">
+          <div class="c d">
+            <div class="r y"></div>
+          </div>
+        </div>
+        
+        <div class="q" id="t">
+          <div class="c r" id="e">
+            <div id="x" class="y d"></div>
+          </div>
+        </div>
+        
+        <div class="q u">
+          <div class="c d">
+            <div class="r y"></div>
+          </div>
+        </div>
+      </div>
+      
+      <style>
+        body {
+          margin: 0;
+        }
+        #d {
+          height: 300px;
+          width: 400px;
+          background: #62306D;
+          display: flex;
+          justify-content: center;
+        }
+        .q {
+          width: 100px;
+          background: #F7EC7D;
+          margin-top: auto;
+        }
+        #t {
+          height: 200px;
+        }
+        .u {
+          height: 100px;
+        }
+        .c {
+          height: 100px;
+          border-radius: 50%;
+          background: #fff;
+          position: relative;
+          bottom: 50px;
+        }
+        .d {
+          background: #AA445F;
+        }
+        .r {
+          background: #E38F66;
+        }
+        .y {
+          height: 60px;
+          width: 60px;
+          border-radius: 50%;
+          position: relative;
+          left: 20px;
+          top: 20px;
+        }
+      </style>
+</body>
+</html>
