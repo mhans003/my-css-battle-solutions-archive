@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Battle</title>
+</head>
+<body>
+    <div id="a">
+
+        <div class="v t">
+          <div class="c q"></div>
+        </div>
+        
+        <div id="n">
+          <div class="l" id="x">
+              <div class="c p"></div>
+          </div>
+          <div id="r"></div>
+            <div class="l" id="y">
+              <div class="c p"></div>
+          </div>
+        </div>
+        
+        <div class="v u">
+          <div class="c q"></div>
+        </div>
+        
+      </div>
+      
+      <style>
+        body {
+          margin: 0;
+        }
+        #a {
+          width: 400px;
+          height: 300px;
+          background: #09042A;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        #n {
+          display: flex;
+        }
+        .c {
+          position: relative;
+          top: 10px;
+          margin: auto;
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          background: #fff;
+        }
+        .l {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          background: #E78481;
+          position: relative;
+        }
+        #r {
+          width: 60px;
+          height: 50px;
+          background: #E78481;
+          margin-top: auto;
+          margin-bottom: auto;
+        }
+        #x {
+          left: 10px;
+        }
+        #y {
+          right: 10px;
+        }
+        .v {
+          height: 80px;
+          width: 80px;
+          border-radius: 50%;
+          background: #09042A;
+          position: absolute;
+        }
+        .t {
+          top: 57px;
+        }
+        .u {
+          top: 163px;
+        }
+        .p {
+          background: #09042A;
+        }
+        .q {
+          background: #F5BB9C;
+        }
+      </style>
+</body>
+</html>
