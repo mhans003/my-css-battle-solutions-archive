@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Battle</title>
+</head>
+<body>
+    <div id="a">
+        <div class="c p"></div>
+        <div class="c o"></div>
+        <div class="x"></div>
+      </div>
+      <style>
+        body {
+          margin: 0
+        }
+        #a {
+          width: 400px;
+          height: 300px;
+          background: #09042A;
+          display: flex;
+          align-items: center;
+        }
+        .c {
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          position: relative;
+        }
+        .p {
+          left: 75px;
+          background: #7B3F61;
+        }
+        .o {
+          left: 25px;
+          background: #E78481
+        }
+        .x {
+          position: relative;
+          height: 80px;
+          width: 80px;
+          border-radius: 0 95% 0 95%;
+          background: #09042A;
+          right: 140px;
+          z-index: 1;
+          transform: rotate(45deg);
+        }
+      </style>
+</body>
+</html>
