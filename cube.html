@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Battle</title>
+</head>
+<body>
+    <div id="a">
+        <div class="x" id="i"></div>
+        <div class="x" id="j"></div>
+        <div id="b"></div>
+      </div>
+      <style>
+        body {
+          margin: 0
+        }
+        #a {
+          width: 400px;
+          height: 300px;
+          background: #0B2429;
+          display: flex;
+        }
+        #b {
+          width: 100px;
+          height: 100px;
+          transform: rotate(45deg);
+          background: #F3AC3C;
+          margin: 135px auto 0 auto;
+         
+        }
+        .x {
+          width: 71px;
+          height: 71px;
+          transform: skew(0deg, 45deg);
+          position: absolute
+        }
+        #i {
+          background: #998235;
+          left: 129px;
+          top: 79px;
+          transform: skew(0deg, 315deg);
+          
+        }
+        #j {
+          background: #1A4341;
+          left: 200px;
+          top: 79px;
+        }
+      </style>
+</body>
+</html>
