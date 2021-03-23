@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Battle</title>
+</head>
+<body>
+    <div id="a">
+        <div class="b">
+          <div class="c x"></div>
+          <div class="c y"></div>
+          <div class="c x"></div>
+          <div class="c y"></div>
+        </div>
+        <div class="b">
+            <div class="c y"></div>
+          <div class="c x"></div>
+          <div class="c y"></div>
+          <div class="c x"></div>
+        </div>
+        <div class="b">
+            <div class="c x"></div>
+          <div class="c y"></div>
+          <div class="c x"></div>
+          <div class="c y"></div>
+        </div>
+      </div>
+      <style>
+        body {
+            margin: 0;
+        }
+        #a {
+          width: 400px;
+          height: 300px;
+          background: #5C434C;
+        }
+        .b {
+          display: flex;
+          justify-content: space-around;
+        }
+        .c {
+          width: 80px;
+          height: 80px;
+          border-radius: 100% 0 0 0;
+          margin: 10px 0;
+        }
+        .x {
+          background: #F09462;
+        }
+        .y {
+          background: #F5D6B4
+        }
+      </style>
+</body>
+</html>
