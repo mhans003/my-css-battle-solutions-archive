@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Battle</title>
+</head>
+<body>
+    <div id="a">
+        <div id="b">
+          <div class="c d"></div>
+          <div class="c e"></div>
+          <div class="c f"></div>
+          <div class="c g"></div>
+        </div>
+      </div>
+      <style>
+        body {
+          margin: 0;
+        }
+        #a {
+          width: 400px;
+          height: 300px;
+          background: #F3AC3C;
+          display: flex;
+        }
+        #b {
+          width: 200px;
+          height: 200px;
+          background: #1A4341;
+          margin: auto;
+          display: flex;
+          flex-wrap: wrap;
+        }
+        
+        .c { 
+          width: 50%;
+          background: #F3AC3C;
+          height: 50%;
+        }
+        .d {
+          border-radius: 0 0 100px 0;
+        }
+        .e {
+          border-radius: 0 0 0 100px;
+        }
+        .f {
+          border-radius: 0 100px 0 0;
+        }
+        .g {
+          border-radius: 100px 0 0 0;
+        }
+      </style>
+</body>
+</html>
