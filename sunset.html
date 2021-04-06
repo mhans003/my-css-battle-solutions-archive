@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Battle</title>
+</head>
+<body>
+    <div id="a">
+        <div class="z i"></div>
+        <div class="z j"></div>
+        <div class="x"></div>
+        <div id="b">
+          
+        </div>
+        <div class="x y"></div>
+        <div class="h u"></div>
+        <div class="h v"></div>
+      </div>
+      
+      <style>
+        body {
+          margin: 0;
+        }
+        #a {
+          width: 400px;
+          height: 300px;
+          background: #1A4341;
+          display: flex;
+        }
+        #b {
+          margin: auto;
+          width: 250px;
+          height: 250px;
+          background: #F3AC3C;
+          border-radius: 50%;
+          display: flex;
+        }
+        #c {
+          margin: auto;
+          width: 200px;
+          height: 200px;
+          background: #998235;
+          border-radius: 50%;
+        }
+        .x {
+          position: absolute;
+          height: 100px;
+          width: 400px;
+          background: #1A4341;
+        }
+        .y {
+          top: 200px;
+        }
+        .z {
+          position: absolute;
+          height: 20px;
+          width: 400px;
+          background: #1A4341;
+          
+        }
+        .i {
+          top: 120px;
+        }
+        
+        .j {
+          top: 160px;
+        }
+        .h {
+          position: absolute;
+          width: 200px;
+          background: #998235;
+          height: 200px;
+          clip-path: circle(50% at 135%);
+          transform: rotate(90deg);       
+        }
+        .u {
+          left: 100px;
+          top: -120px
+        }
+        .v {
+          left: 100px;
+          top: 220px;
+          transform: rotate(270deg);
+        }
+      </style>
+</body>
+</html>
