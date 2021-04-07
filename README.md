@@ -3,9 +3,7 @@
 
 ## Deployed Application 
 
-[CSS Battle Solutions]()
-
-![Screenshot of CSS Battle Solutions]()
+[CSS Battle Solutions](https://mhans003.github.io/my-css-battle-solutions-archive/)
 
 ## Description 
 
