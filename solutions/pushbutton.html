@@ -6,8 +6,62 @@
     <title>CSS Battle</title>
 </head>
 <body>
-    <!--This current solution is not adaptable to different screen sizes-->
-    <div class="r"></div><div class="c"></div><div class="b"></div><div class="y"></div></div>
-    <style>body{background:#6592cf}div{position:fixed}.r{width:300px;height:150px;background:#243d83;margin:16.7%10.5%}.c{width:250px;height:250px;background:#6592cf;border-radius:50%;margin:4.3%16.5%}.b{width:150px;height:150px;background:#243d83;border-radius:50%;margin:16.7%29%}.y{width:50px;height:50px;background:#eeb850;border-radius:50%;margin:29%41.5%}</style>
+    <div class="a u v">
+        <div class="b z i"></div>
+        <div class="c y v">
+          <div class="d x y z u">
+            <div class="e x y i"></div>
+          </div>
+        </div>
+      </div>
+      
+      <style>
+        body {
+          margin: 0;
+        }
+        .a {
+          width: 400px;
+          height: 300px;
+        }
+        .b {
+          width: 300px;
+          height: 150px; 
+        }
+        .c {
+          position: absolute;
+          left: 75px;
+          top: 25px;
+          width: 250px;
+          height: 250px;  
+        }
+        .d { 
+          margin: 50px;
+          width: 150px;
+          height: 150px;
+        }
+        .e {
+          width: 50px;
+          height: 50px;
+          background: #EEB850;  
+        }
+        .x {
+          position: relative;
+        }
+        .y {
+          border-radius: 50%;
+        }
+        .z {
+          background: #243D83;
+        }
+        .i {
+          margin: auto;
+        }
+        .u {
+          display: flex;
+        }
+        .v {
+          background: #6592CF;
+        }
+      </style>
 </body>
 </html>
