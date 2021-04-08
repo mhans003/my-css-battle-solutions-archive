@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Battle</title>
+</head>
+<body>
+    <div id="a">
+    
+        <div id="b"></div> 
+        <div class="x y"></div>
+        <div class="x z"></div>
+      <div class="i j"></div>
+      <div class="i k"></div>
+    </div>
+    
+    <style>
+      body {
+        margin: 0;
+      }
+      #a {
+        width: 400px;
+        height: 400px;
+        background: #293462;
+        display: flex;
+      }
+      #b {
+        margin: 50px auto;
+        width: 200px;
+        height: 200px;
+        background: #FFF1C1;
+        border-radius: 50%;
+      }
+      .x {
+        position: absolute;
+        transform: rotate(45deg);
+        background: #FE5F55;
+      }
+      .y {
+        width: 100px;
+        height: 130px;
+        left: 181px;
+        top: 125px;
+      }
+      .z {
+        width: 110px;
+        height: 40px;
+        left: 99px;
+        top: 212px;
+      }
+      .i {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        box-shadow: 100px 100px 0 0 #293462;
+        left: 100px;
+        top: 50px;
+      }
+      .j {
+        transform: rotate(70deg);
+      }
+      .k {
+        transform: rotate(5deg); 
+      }
+      .l {
+        position: absolute;
+      }
+    </style>
+</body>
+</html>
