@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Battle</title>
+</head>
+<body>
+    <div id="a">
+        <div class="a b"></div>
+        <div class="a c"></div>
+        
+        <div class="x q i"></div>
+        <div class="x w i"></div>
+        <div class="x y j"></div>
+        <div class="x z j"></div>
+        
+        <div class="p">
+          <div class="s"></div>
+          <div class="s d"></div>
+        </div>
+      </div>
+      <style>
+        body {
+          margin: 0;
+        }
+        #a {
+          width: 400px;
+          height: 400px;
+          background: #191919;
+        }
+        .a {
+          position: absolute;
+          border: 10px solid #5DBCF9;
+        }
+        .b {
+          width: 30px;
+          height: 19px;
+          left: 175px;
+          top: 66px;
+        }
+        .c {
+          width: 80px;
+          height: 45px;
+          left: 150px;
+          top: 96px;
+        }
+        .x {
+          position: absolute;
+          width: 0px;
+          height: 0px;
+        }
+        .i {
+          top: 183px;
+        }
+        .j {
+          top: 184px;
+        }
+        .q {
+          left: 63px;
+          transform: rotate(270deg);
+          border-left: 150px solid transparent;
+          border-right: 45px solid transparent;
+          border-bottom: 80px solid #5DBCF9;
+        }
+        .w {
+          left: 143px;
+          transform: rotate(270deg);
+          border-left: 150px solid transparent;
+          border-right: 45px solid transparent;
+          border-top: 80px solid #5DBCF9;
+        }
+        .y {
+          left: 92px;
+          transform: rotate(270deg);
+          border-left: 112.5px solid transparent;
+          border-right: 33.75px solid transparent;
+          border-bottom: 60px solid #191919;  
+        }
+        .z {
+          left: 162px;
+          transform: rotate(270deg);
+          border-left: 112.5px solid transparent;
+          border-right: 33.75px solid transparent;
+          border-top: 60px solid #191919;   
+        }
+        .p {
+          position: absolute;
+          top: 195px;
+          left: 100px;
+          width: 200px;
+          height: 205px;
+          background: #191919;
+        }
+        .s {
+          height: 10px;
+          background: #5DBCF9;
+          margin-top: 9px;
+        }
+        .d {
+          width: 55%;
+          margin: 10px auto;
+        }
+      </style>
+</body>
+</html>
