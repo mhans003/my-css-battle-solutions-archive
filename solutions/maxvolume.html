@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Battle</title>
+</head>
+<body>
+    <div id="a">
+        <div class="q z e"></div>
+        <div class="q x e"></div>
+        <div class="q c e"></div>
+        
+        <div class="e b"></div>
+        <div class="w e n"></div>
+      </div>
+      
+      <style>
+        body {
+          margin: 0;
+        }
+        #a {
+          width: 400px;
+          height: 300px;
+          background: #191919;
+        }
+        .q {
+          background-color: #191919;
+          border-top-right-radius: 110px;
+          border-bottom-right-radius: 110px;
+          border: 10px solid #5DBCF9;
+          border-left: 0;
+          left: 225px;
+        }
+        .w {
+          background: #5DBCF9;
+        }
+        .e {
+          position: absolute;
+        }
+        .z {
+          width: 90px;
+          height: 180px;
+          top: 50px;
+        }
+        .x {
+          width: 65px;
+          height: 130px;
+          top: 75px;
+        }
+        .c {
+          width: 40px;
+          height: 80px;
+          top: 100px;
+        }
+        .b {
+          top: 79px;
+          left: 129px;
+          width: 0;
+          height: 0;
+          border-top: 142px solid #5DBCF9;
+          border-left: 142px solid transparent;
+          transform: rotate(225deg);
+        }
+        .n {
+          width: 50px;
+          height: 50px;
+          border-radius: 10px 0 0 10px;
+          top: 125px;
+          left: 75px;
+        }
+      </style>
+</body>
+</html>
