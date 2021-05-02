@@ -6,7 +6,48 @@
     <title>CSS Battle</title>
 </head>
 <body>
-    <div class="p y"></div><div class="p g"></div><div class="c"></div>
-    <style>body{background:#0b2429}div{position:absolute;width:120px;height:120px}.p{border-radius:50% 0 50% 50%}.y{background:#f3ac3c;margin:35.5% 18%;z-index:3}.g{background:#998235;margin:20.5% 33%;z-index:2}.c{background:#f3ac3c;border-radius:50%;z-index:1;margin:5.5% 48%}</style>
+    <div id="a">
+        <div class="a c d g"></div>
+        <div class="b c d f"></div>
+        <div class="a c d e"></div>
+      </div>
+      
+      <style>
+        body {
+          margin: 0;
+        }
+        #a {
+          width: 400px;
+          height: 300px;
+          background: #0B2429;
+        }
+        .a {
+          background: #F3AC3C
+        }
+        .b {
+          background: #998235
+        }
+        .c {
+          position: absolute
+        }
+        .d {
+          width: 120px;
+          height: 120px;
+          border-radius: 50% 0 50% 50%;
+        }
+        .e {
+          top: 150px;
+          left: 80px;
+        }
+        .f {
+          top: 90px;
+          left: 140px;
+        }
+        .g {
+          border-radius: 50%;
+          left: 200px;
+          top: 30px;
+        }
+      </style>
 </body>
 </html>
