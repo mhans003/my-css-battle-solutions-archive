@@ -6,7 +6,43 @@
     <title>CSS Battle</title>
 </head>
 <body>
-    <div class="c"><div class="i d"></div><div class="i u"></div><div class="i d"></div></div></div>
-    <style>body{background:#62306d}.c{display:flex;justify-content:center}.i{width:100px;height:100px;background:#f7ec7d}.u{border-radius:50% 50% 0 0;margin-top:11%}.d{border-radius:0 0 50% 50%;margin-top:37%}</style>
+    <div id="a">
+        <div class="a b c"></div>
+        <div class="a b d"></div>
+        <div class="a b e"></div>
+      </div>
+      
+      <style>
+        body {
+          margin: 0;
+        }
+        #a {
+          width: 400px;
+          height: 300px;
+          background: #62306D;
+        }
+        .a {
+          background: #F7EC7D;
+        }
+        .b {
+          width: 100px;
+          height: 100px;
+          border-radius: 0 0 50% 50%;
+          position: absolute;
+        }
+        .c {
+          top: 50px;
+          left: 150px;
+          transform: rotate(180deg);
+        }
+        .d {
+          top: 150px;
+          left: 50px;
+        }
+        .e {
+          top: 150px;
+          left: 250px;
+        }
+      </style>
 </body>
 </html>
